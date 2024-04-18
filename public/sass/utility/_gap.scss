@@ -1,0 +1,24 @@
+@use "../foundation/breakpoints" as *;
+/* ——————————————————————————————————————————————————————————————
+gap
+—————————————————————————————————————————————————————————————— */
+.u-gap{
+  &4{
+    gap: .25rem;
+  }
+  &8{
+    gap: .5rem;
+  }
+}
+@for $i from 2 through 10 {
+  $num: $i * 8;
+  .u-gap#{$num} {
+    gap: .5rem;
+    @include breakpoints(sm) {
+      gap: .75rem;
+    }
+    @include breakpoints(lg) {
+      gap: #{$num}px;
+    }
+  }
+}

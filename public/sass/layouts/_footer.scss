@@ -1,0 +1,16 @@
+@use "../foundation/breakpoints" as *;
+.l-footer{
+  grid-row: 2;
+  grid-column: 1 / span 2;
+  padding: 1rem;
+  grid-area:footer;
+  min-height: var(--footer);
+  .l-grid--2{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+    @include breakpoints (sm){
+      grid-template-columns: 200px 1fr;
+    }
+  }
+}
