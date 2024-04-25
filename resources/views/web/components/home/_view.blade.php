@@ -2,7 +2,7 @@
     <div class="pView__head" align="center">
         <img src="{{ asset('img/logo/png/logo_set.png') }}" alt="Mitsumeru ロゴ" height="80" width="240" class="pView__head--logo">
         <h2 class="pView__head--title c-txt__xl3 c-txt--center">
-            <strong>事業</strong>を<br /><span>見つめる</span><br /><strong>デザイン</strong>を
+            <strong>事業</strong>を<span>見つめる</span><strong>デザイン</strong>を
         </h2>
     </div>
     <div class="pView__body">
