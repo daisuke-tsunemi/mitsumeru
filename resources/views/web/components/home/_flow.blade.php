@@ -8,13 +8,13 @@
         <?php
           function flowList(){
           return [
-            ['img' => '/public/img/content/flow_1.webp', 'title' => 'Flow1', 'content' => 'content1contentcontentcontent'],
-            ['img' => '/public/img/content/flow_2.webp', 'title' => 'Flow2', 'content' => 'content2contentcontentcontent'],
-            ['img' => '/public/img/content/flow_3.webp', 'title' => 'Flow3', 'content' => 'content3contentcontentcontent'],
-            ['img' => '/public/img/content/flow_4.webp', 'title' => 'Flow4', 'content' => 'content4contentcontentcontent'],
-            ['img' => '/public/img/content/flow_5.webp', 'title' => 'Flow5', 'content' => 'content5contentcontentcontent'],
-            ['img' => '/public/img/content/flow_6.webp', 'title' => 'Flow6', 'content' => 'content6contentcontentcontent'],
-            ['img' => '/public/img/content/flow_7.webp', 'title' => 'Flow7', 'content' => 'content7contentcontentcontent'],
+            ['img' => '/img/content/flow_1.webp', 'title' => 'Flow1', 'content' => 'content1contentcontentcontent'],
+            ['img' => '/img/content/flow_2.webp', 'title' => 'Flow2', 'content' => 'content2contentcontentcontent'],
+            ['img' => '/img/content/flow_3.webp', 'title' => 'Flow3', 'content' => 'content3contentcontentcontent'],
+            ['img' => '/img/content/flow_4.webp', 'title' => 'Flow4', 'content' => 'content4contentcontentcontent'],
+            ['img' => '/img/content/flow_5.webp', 'title' => 'Flow5', 'content' => 'content5contentcontentcontent'],
+            ['img' => '/img/content/flow_6.webp', 'title' => 'Flow6', 'content' => 'content6contentcontentcontent'],
+            ['img' => '/img/content/flow_7.webp', 'title' => 'Flow7', 'content' => 'content7contentcontentcontent'],
           ];
           }
         ?>
