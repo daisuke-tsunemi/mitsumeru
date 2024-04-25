@@ -4,7 +4,7 @@
       <h2 class="p-section__head--title c-txt__xl">ご利用の流れ</h2>
     </div>
     <div class="p-section__body">
-      <div class="l-grid--4 u-gap40" align='center'>
+      <div class="l-grid--4 u-gap40">
         <?php
           function flowList(){
           return [
@@ -20,7 +20,7 @@
         ?>
         @php($flowList = flowList())
           @foreach($flowList as $flow)
-          <div class="l-grid--item align-center" align='center'>
+          <div class="l-grid--item align-center">
             <img src="{{ $flow['img'] }}" alt="{{ $flow['title'] }}のイメージ" class="img--circle bg-fff" width="120" height="120">
             <h3 class="c-txt__md">{{ $flow['title'] }}</h3>
             <p class="c-txt__sm">{{ $flow['content'] }}</p>
@@ -28,7 +28,7 @@
         @endforeach
       </div>
     </div>
-    <div class="p-section__foot" align='center'>
+    <div class="p-section__foot u-align--center">
       <a href="#contact" class="c-btn lg">お問い合わせへ</a>
     </div>
   </div>

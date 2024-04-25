@@ -26,7 +26,7 @@
         </div>
       </div>
     </div>
-    <div class="p-section__foot" align='center'>
+    <div class="p-section__foot u-align--center">
       <a href="#contact" class="c-btn lg">MORE</a>
     </div>
   </div>
