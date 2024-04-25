@@ -5,7 +5,7 @@
     "builds": [
         {
             "src": "/api/index.php",
-            "use": "vercel-php@0.7.1"
+            "use": "vercel-php@0.6.1"
         },
         {
             "src": "/public/**",
@@ -13,7 +13,10 @@
         }
     ],
     "routes": [
-        { "src": "/(.*)", "dest": "/api/index.php" },
+        {
+            "src": "/build/assets/(.*)",
+            "dest": "/public/build/assets/$1"
+        },
         {
             "src": "/favicon.ico",
             "dest": "/public/favicon.ico"
