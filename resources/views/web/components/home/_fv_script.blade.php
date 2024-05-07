@@ -150,7 +150,6 @@
         gl_FragColor = vec4(color, 1.0);
     }
 </script>
-
 <script type="x-shader/x-vertex" id="vertexShader">
     varying vec2 vUv;
     void main() {
@@ -158,5 +157,4 @@
         gl_Position = vec4(position, 1.);
     }
 </script>
-<!-- partial -->
 <script type="module" src="{{asset('js/library/pView.js')}}"></script>

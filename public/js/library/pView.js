@@ -8,8 +8,6 @@ let pointer = {
     y: .3,
     clicked: true
 };
-
-
 let isStart = true;
 let isRendering = true;
 
